@@ -25,7 +25,7 @@
     "react-icons": "^4.8.0",
     "react-markdown": "^8.0.6",
     "react-textarea-autosize": "^8.4.0",
-    "reactflow": "^11.7.0",
+    "reactflow": "^11.8.2",
     "rehype-highlight": "^6.0.0",
     "yield-stream": "^2.3.0"
   },

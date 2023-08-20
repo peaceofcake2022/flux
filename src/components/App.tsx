@@ -1269,10 +1269,10 @@ function App() {
                 multiSelectionKeyCode="Shift"
                 panActivationKeyCode="Shift"
                 deleteKeyCode={null}
-                panOnDrag={false}
+                panOnDrag={[1]}
                 selectionOnDrag={true}
-                zoomOnScroll={false}
-                zoomActivationKeyCode={null}
+                zoomOnScroll={true}
+                zoomActivationKeyCode="Control"
                 panOnScroll={true}
                 selectionMode={SelectionMode.Partial}
                 onNodeClick={(_, node) => {
