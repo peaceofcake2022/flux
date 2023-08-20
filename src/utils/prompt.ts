@@ -84,7 +84,8 @@ function removeInvalidChars(text: string) {
   // a-zA-Z0-9: letters and numbers
   // .,?!: common punctuation marks
   // \s: whitespace characters (space, tab, newline, etc.)
-  const regex = /[^a-zA-Z0-9.,'?!-\s]+/g;
+//   const regex = /[^a-zA-Z0-9.,'?!-\s]+/g;
+  const regex = /[^a-zA-Z0-9.,'?!-\sㄱ-ㅎㅏ-ㅣ가-힣]+/g;
 
   // Replace `\n` with spaces and remove invalid characters
   const cleanedStr = text.replaceAll("\n", " ").replace(regex, "");
